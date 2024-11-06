@@ -1,5 +1,7 @@
 @import url(event.css);
 @import url(header.css);
+@import url(grid.css);
+
 html,
 body {
   width: 100%; 
