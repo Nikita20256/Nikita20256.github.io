@@ -1,4 +1,4 @@
-.btn {
+.btn{
     display: inline-block;
     box-sizing: border-box;
     padding: 15px 40px;
@@ -6,6 +6,7 @@
     background-color: transparent;
     outline: none;
     color: @black;
+    font-family: @font1;
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
@@ -14,14 +15,14 @@
     transition: color 0.2s, background-color 0.2s, border-color 0.2s;
     overflow: hidden;
     cursor: pointer;
-    
-    &:hover {
-      background-color: @black;
-      color: @white;
-    }
-  }
 
-  .x-btn {
+    &:hover{
+        background-color: @black;
+        color: @white;
+    }
+}
+
+.x-btn {
     display: flex;
     outline: none;
     border: none;
@@ -35,10 +36,9 @@
     &:hover {
       background-color: @red_dark;
     }
-  
+
     &__icon {
-      margin: auto;
-      color: @white;
+        margin: auto;
+        color: @white;
     }
-  }
-  
+}
