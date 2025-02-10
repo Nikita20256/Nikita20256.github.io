@@ -205,7 +205,9 @@
     transition: text-decoration-color 0.2s;
     cursor: pointer;
     &:hover {
-      text-decoration-color: transparent;
+      @media (hover: hover) {
+        text-decoration-color: transparent;
+      }
     }
   }
 

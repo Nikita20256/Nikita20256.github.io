@@ -67,8 +67,10 @@
     }
 
     &__title:hover{
-        color: @red;
-        text-decoration-color: @red;
+        @media (hover: hover){
+            color: @red;
+            text-decoration-color: @red;
+        }
     }
 
     &__description {
